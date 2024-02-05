@@ -3,4 +3,7 @@
 
 ## qemu 세팅
 WSL: https://www.youtube.com/watch?v=zAI-OWkavAw&ab_channel=TechyCricketer
-해당 영상보고 참고 할 것
+해당 영상보고 git clone 제외한 나머지 부분만 할 것
+
+## qemu 실행
+qemu-system-x86_64 -L . -m 64 -fda ./Disk.img -M pc
