@@ -10,3 +10,4 @@ qemu-system-x86_64 -L . -m 64 -fda ./Disk.img -M pc
 
 ## c 파일을 컴파일하여 어셈블리어 파일 생성하기
 gcc -c a.c -o a.o -02
+objdump -d a.o
